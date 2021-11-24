@@ -1,0 +1,16 @@
+.box{
+    width: 264px;
+    height: 264px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+
+    display: flex;              /*centriranje slika */
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;     /*broj stupaca je 4*/
+    gap: 20px;                                      /*shorthand razmak gore dolje lijevo desno izmedu stupaca*/
+}

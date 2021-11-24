@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.page{
+    position: relative;     /*onaj kvadrat*/
+    width: 688px;
+    height: 674px;
+    background: #F6F4EF;    
+}
+
+.poslovi{
+    position: absolute;     /*container za poslove*/
+    width: 608px;
+    height: 594px;
+    left: 40px;
+    top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.poslovi .posao{
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+    display: flex;
+    
+    flex-direction: row;
+
+    flex-grow: 0;
+}
+
+.posao .djelovi{
+    padding-left: 24px;
+    padding-right: 24px;
+
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+
+    line-height: normal;
+}
+
+.posao .slika{
+    align-self: center;     
+    flex: none;
+}
+
+.firstPart{
+    max-height: min-content;
+}
+
+.secondPart{
+    height: 50px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    
+    gap: 10px;
+
+    justify-items: center;
+    justify-content: end;
+    align-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////// uredivanje teksta ////////////*/
+
+*{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.naziv{
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    
+    /* Gray / 500 */
+
+    color: #555555;
+}
+
+.jobTitle{
+
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 121% */
+    
+    letter-spacing: -0.01em;
+    
+    color: #000000;    
+}
+
+.button{
+    padding: 5px;
+
+    color: #DDDDDD;
+    text-align: center;
+    
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 99px;
+
+}
+
+
+/*///////////// uredivanje teksta ////////////*/
